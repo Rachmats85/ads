@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html amp lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="fonts/advanced_dot_digital7.woff2" as="font" type="font/woff2">
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/soccer-2-64.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Sora&display=swap" rel="stylesheet">
+  <title>Toko Bunga Karens Murah</title>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style><noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+  <style amp-custom>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: "Sora", sans-serif;
+    }
+
+    @font-face {
+      font-family: "advanced_dot_digital7";
+      src: url(fonts/advanced_dot_digital7.woff2) format("woff2");
+    }
+
+    body {
+      font-family: sans-serif;
+      background: black;
+    }
+
+    .logo-image {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-logo-inner {
+      width: 100%;
+      height: auto;
+    }
+
+    li {
+      color: yellow;
+    }
+
+    .page-background-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      pointer-events: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      z-index: -1;
+    }
+
+    nav {
+      background: #000;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem calc((100vw - 1000px) / 2);
+      z-index: 10;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .logo a:hover {
+      text-decoration: none;
+    }
+
+    .menu li {
+      font-size: 16px;
+      padding: 15px 5px;
+      white-space: nowrap;
+    }
+
+    .logo a,
+    .toggle a {
+      font-size: 20px;
+    }
+
+    .button.secondary {
+      border-bottom: 1px #444 solid;
+    }
+
+    /* Mobile menu */
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .toggle {
+      order: 1;
+    }
+
+    .item.button {
+      order: 2;
+    }
+
+    .item {
+      width: 100%;
+      text-align: center;
+      order: 3;
+      display: none;
+    }
+
+    .item.active {
+      display: block;
+    }
+
+    /* Navbar Toggle */
+    .toggle {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .bars {
+      background: #999;
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      transition: background .2s ease-out;
+      width: 18px;
+    }
+
+    .bars:before,
+    .bars:after {
+      background: #999;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+    }
+
+    .bars:before {
+      top: 5px;
+    }
+
+    .bars:after {
+      top: -5px;
+    }
+
+    /* Tablet menu */
+    @media all and (min-width: 468px) {
+      .menu {
+        justify-content: center;
+      }
+
+      .logo {
+        flex: 1;
+      }
+
+      .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+      }
+
+      .toggle {
+        order: 2;
+      }
+
+      .button.secondary {
+        border: 0;
+      }
+
+      .button a {
+        padding: 7.5px 15px;
+        background: teal;
+        border: 1px #006d6d solid;
+        border-radius: 50em;
+      }
+
+      .button.secondary a {
+        background: transparent;
+      }
+
+      .button a:hover {
+        text-decoration: none;
+        transition: all .25s;
+      }
+
+      .button:not(.secondary) a:hover {
+        background: #006d6d;
+        border-color: #005959;
+      }
+
+      .button.secondary a:hover {
+        color: #ddd;
+      }
+    }
+
+    /* Desktop menu */
+    @media all and (min-width: 768px) {
+      .item {
+        display: block;
+        width: auto;
+      }
+
+      .toggle {
+        display: none;
+      }
+
+      .logo {
+        order: 0;
+      }
+
+      .item {
+        order: 1;
+      }
+
+      .button {
+        order: 2;
+      }
+
+      .menu li {
+        padding: 15px 10px;
+      }
+
+      .menu li.button {
+        padding-right: 0;
+      }
+    }
+
+    aside.sidebar-container {
+      display: none;
+    }
+
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      margin-right: 24px;
+
+      /* Third Nav */
+      /* justify-content: flex-end;
+  width: 100vw; */
+
+    }
+
+    .nav-buttons-link {
+      border-radius: 4px;
+      background: #e2c360;
+      padding: 10px 22px;
+      color: black;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+
+      /* Second Nav */
+      margin-left: 24px;
+    }
+
+
+    a:hover {
+      outline: none;
+      text-decoration: none;
+      color: white;
+    }
+
+    .nav-buttons-link:hover {
+      transition: all 0.2s ease-in-out;
+      /* background: #fff; */
+      color: #010606;
+    }
+
+    .nav-buttons-href:hover {
+      color: #010606;
+    }
+
+    .container-lp {
+      padding: 0.5rem calc((100vw - 1000px) / 2);
+      background: #101010;
+      color: white;
+    }
+
+    .title-h1 {
+      color: #e2c360;
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .carousel-image img {
+      /* margin-top: 30px; */
+      width: 100%;
+      height: auto;
+    }
+
+    .elemental-row {
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+    .elemental-col {
+      color: white;
+      padding-bottom: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .inner-elemental {
+      padding: 0px 0px 0px 0px;
+      background-color: darkslategrey;
+      border-radius: 4px;
+      height: auto;
+    }
+
+    .inner-elemental.daftar {
+      margin-right: 20px;
+    }
+
+    .inner-elemental.deposit {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .inner-elemental.withdraw {
+      margin-left: 20px;
+    }
+
+    .inner-elemental-wrap {
+      width: 100%;
+      padding: 60px 40px 60px 40px;
+    }
+
+    .icon {
+      margin-bottom: 60px;
+    }
+
+    .h3-text {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1.4em;
+      margin: 0px 0px 5px 0px;
+    }
+
+    .seperator {
+      margin-bottom: 20px;
+    }
+
+    hr {
+      background-color: yellow;
+      height: 2px;
+      width: 40px;
+      opacity: 1;
+    }
+
+    h2 {
+      color: #e2c360;
+    }
+
+    p {
+      color: white;
+    }
+
+    .linking-text {
+      color: yellow;
+    }
+
+    .img-star {
+      width: 16px;
+    }
+
+    .herobola-brand-container {
+      margin-top: 40px;
+      color: white;
+    }
+
+    .image-banner-herobola-brand-container {
+      width: 50%;
+    }
+
+    .image-banner-herobola-brand {
+      width: 100%;
+    }
+
+    .column-first {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .brand-text {
+      width: 50%;
+      margin-left: 40px;
+    }
+
+    ul {
+      list-style: none;
+      /* Remove default bullets */
+    }
+
+    ul li::before {
+      /* content: "\2022"; */
+      /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: red;
+      /* Change the color */
+      font-weight: bold;
+      /* If you want it to be bold */
+      display: inline-block;
+      /* Needed to add space between the bullet and the text */
+      width: 1em;
+      /* Also needed for space (tweak if needed) */
+      margin-left: -1em;
+      /* Also needed for space (tweak if needed) */
+    }
+
+    .link-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .nav-buttons-link-2 {
+      border-radius: 4px;
+      background: #e2c360;
+      padding: 10px 22px;
+      color: black;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+
+      /* Second Nav */
+      /* margin-left: 24px; */
+    }
+
+    .livechat-top-container {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .paragraph {
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    strong {
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #e2c360;
+    }
+
+    .content-container {
+      margin-top: 20px;
+    }
+
+    .content-introduction {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .jackpot-container {
+      display: none;
+    }
+
+    .footer-dark {
+      padding: 50px 0;
+      color: #f0f9ff;
+      /* background-color: #282d32; */
+    }
+
+    .footer-dark h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .footer-dark ul {
+      padding: 0;
+      list-style: none;
+      line-height: 1.6;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .footer-dark ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.6;
+    }
+
+    .footer-dark ul a:hover {
+      opacity: 0.8;
+    }
+
+    @media (max-width:767px) {
+      .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+    }
+
+    .footer-dark .item.text {
+      margin-bottom: 36px;
+    }
+
+    @media (max-width:767px) {
+      .footer-dark .item.text {
+        margin-bottom: 0;
+      }
+    }
+
+    .footer-dark .item.text p {
+      opacity: 0.6;
+      margin-bottom: 0;
+    }
+
+    .footer-dark .item.social {
+      text-align: center;
+    }
+
+    @media (max-width:991px) {
+      .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+
+    .footer-dark .item.social>a {
+      font-size: 20px;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+      margin: 0 8px;
+      color: #fff;
+      opacity: 0.75;
+    }
+
+    .footer-dark .item.social>a:hover {
+      opacity: 0.9;
+    }
+
+    .footer-dark .copyright {
+      text-align: center;
+      opacity: 0.3;
+      font-size: 13px;
+      margin-bottom: 0;
+      margin-left: 5px;
+    }
+
+    .row-manual {
+      display: flex;
+    }
+
+    .item-games {
+      width: 50%;
+    }
+
+    .item-games-perangbola {
+      width: 50%;
+    }
+
+    .copyright-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mesin4d {
+      margin-top: 10px;
+    }
+
+    table.mesin4d td, table.mesin4d th {
+      border: 1px solid #e2c360;
+    }
+    table.mesin4d tbody td {
+      font-size: 18px;
+      color: #ffffff;
+      padding: 3px;
+      font-family: "Sora", sans-serif;
+      
+    }
+    table.mesin4d thead {
+      background: #e2c360;
+    }
+    table.mesin4d thead th {
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      height: 30px;
+    }
+
+    .carousel-container {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .table-container {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .row-manual {
+        flex-direction: column;
+      }
+
+      .item-games {
+        width: 100%;
+      }
+
+      .item-games-perangbola {
+        width: 100%;
+      }
+    }
+
+   
+
+    /* .nav {} */
+
+    @media only screen and (max-width: 768px) {
+
+      nav {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .nav-buttons {
+        display: none;
+      }
+
+      aside.sidebar-container {
+        display: block;
+
+      }
+
+      .elemental-row {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      .icon-container {
+        color: white;
+        position: absolute;
+        top: 1.2rem;
+        right: 1.5rem;
+        background: transparent;
+        font-size: 2rem;
+        cursor: pointer;
+        outline: none;
+      }
+
+      nav.display-none {
+        display: none;
+      }
+
+      .herobola-brand-container {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .sidebar-container {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background: #0d0d0d;
+        display: grid;
+        align-items: center;
+        left: 0;
+        transition: 0.3s ease-in-out;
+        opacity: 0%;
+        top: -100%;
+      }
+
+      .sidebar-container.active {
+        opacity: 100%;
+        top: 0;
+      }
+
+      .sidebar-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sidebar-route {
+        border-radius: 50px;
+        background: #e2c360;
+        white-space: nowrap;
+        padding: 16px 64px;
+        width: 200px;
+        color: white;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s;
+        text-decoration: none;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items:center
+        /* & :hover {
+      transition: all 0.2s ease-in-out;
+      background: #fff;
+      color: #010606;
+    } */
+      }
+
+      a {
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        text-decoration: none;
+        user-select: none;
+      }
+
+      /* .icon-container */
+
+      .elemental-row {
+        flex-direction: column;
+      }
+
+      .inner-elemental.daftar {
+        margin-right: 0px;
+      }
+
+      .inner-elemental.deposit {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .inner-elemental.withdraw {
+        margin-left: 0px;
+      }
+
+      .linking-text {
+        color: yellow;
+      }
+
+      .image-banner-herobola-brand-container {
+        width: 100%;
+      }
+
+      .image-banner-herobola-brand {
+        width: 100%;
+        height: auto;
+      }
+
+
+      .column-first {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .brand-text {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+      }
+
+      .jackpot-container {
+        margin-top: 15px;
+        background: url(images/animation-mobile.gif) center no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 120px;
+        padding-bottom: 30px;
+        /* font-family: "advanced_dot_digital7" */
+      }
+
+      .usd-text {
+        font-family: "advanced_dot_digital7";
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      .number-text {
+        font-family: "advanced_dot_digital7";
+        font-size: 20px;
+      }
+
+      .link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .nav-buttons-link-2 {
+        width: 75%;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .content-container {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+
+    }
+  </style>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+</head>
+    <body>
+  <nav class="nav">
+    <div class="logo-image">
+      <amp-img class="image-logo-inner" src="images/magnum188-logo2.png" layout="responsive" width="1300" height="300"
+        alt="magnum188-logo"></amp-img>
+    </div>
+  </nav>
+  <aside class="sidebar-container">
+    <div class="icon-container">
+      X
+    </div>
+  </aside>
+  <div>
+  <div class="col-md-12">
+  </div>
+</div>
+
+<div class="carousel-container">
+<amp-carousel width="1280" height="960" layout="responsive" type="slides" autoplay delay="5000" role="region"
+  aria-label="Carousel with autoplay">
+  <amp-img src="images/magnum188-1280x960b.jpg" width="1280" height="960" layout="responsive" alt="herobola-banner">
+  </amp-img>
+  <amp-img src="images/magnum188-1280x960d.jpg" width="1280" height="960" layout="responsive" alt="herobola-banner">
+  </amp-img>
+</amp-carousel>
+</div>
+
+<div style="margin-top: 10px;">
+<a href="https://bit.ly/3lXXFX3">
+  <amp-img src="images/daftar-sekarang.gif" width="500" height="140" layout="responsive" alt="herobola-banner">
+  </amp-img>
+</a>
+ 
+    <div class="table-container">
+      <table class="mesin4d" style="width: 100%">
+        <thead>
+          <tr>
+            <th colspan="3" style="color: black" class="table-heading-mesin4d">
+              INFORMASI SITUS
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nama Situs:</td>
+
+            <td>MAGNUM188</td>
+          </tr>
+          <tr>
+            <td>Min Deposit:</td>
+
+            <td>IDR 20.000</td>
+          </tr>
+          <tr>
+            <td>Min Withdraw:</td>
+
+            <td>IDR 50.000</td>
+          </tr>
+          <tr>
+            <td>Game Favorit:</td>
+
+            <td>Pragmatic Play</td>
+          </tr>
+          <tr>
+            <td>Mata Uang:</td>
+
+            <td>IDR (Indonesian Rupiah)</td>
+          </tr>
+          <tr>
+            <td>Sistem Deposit:</td>
+
+            <td>Bank & E-Wallet</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+    </html>
